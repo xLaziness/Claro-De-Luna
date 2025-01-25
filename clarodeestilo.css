@@ -1,0 +1,181 @@
+body {
+    background-color: #f3f0e7;
+}
+
+body header {
+    top: 30px;
+    background-color: #f7f4e9;
+    height: 175px;
+    position: fixed;                       /* Lo mantiene en la parte superior de la ventana */
+    left: 0;                     /* Alineado a la izquierda */
+    width: 100%;                 /* Asegura que el header ocupe todo el ancho */
+    z-index: 1000;               /* Asegura que el header esté por encima del contenido */
+    transition: top 0.4s;
+}
+
+body header hr {
+    width: 90%;
+}
+
+.rectangulo-oferta {
+    height: 30px;
+    background-color: #f7c5b4; /* Color suave para el rectángulo */
+    position: fixed;           /* Lo fija en la parte superior de la página */
+    top: 0px;                    /* En la parte superior */
+    left: 0;
+    width: 100%;               /* Ancho completo */
+    z-index: 999;             /* Asegura que esté por encima del header */
+    display: block;            /* Asegura que sea visible */
+    transition: top 0.4s;      /* Transición suave cuando se desplace */
+  }
+
+  .rectangulo-oferta p {
+    margin-top: 5px; /* Ajusta el margen superior */
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.logotipo {
+    display: flex;           /* Usa Flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;     /* Centra los elementos verticalmente */
+    flex-wrap: wrap;         /* Permite que los elementos se acomoden en una nueva línea si no cabe */
+    border-color: red;
+    transform: translateX(-25px);
+  }
+  
+  .logotipo .logo {
+    width: 110px;             /* Ajusta el tamaño de la imagen */
+    height: auto;            /* Mantiene la proporción */
+    margin-right: 10px;      /* Da espacio entre la imagen y el texto */
+  }
+  
+  .logotipo .titulo {
+    font-size: 45px;         /* Ajusta el tamaño del texto */
+    text-align: center;      /* Asegura que el texto esté centrado */
+    font-style: oblique;
+  }
+
+.opciones {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.opciones .opcion {
+    font-size: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-decoration: none;
+}
+
+article {
+    box-shadow: 0 0 5px rgba(169, 169, 169, 0.3);
+    background-color: #e0ddca;
+    transition: box-shadow 0.3s ease;
+}
+
+article:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.velastitulo {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 220px;
+    margin-bottom: -205px;
+}
+
+.difusorestitulo {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: -205px;
+}
+
+.velas {
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: wrap;
+    padding-top: 110px;
+}
+
+.velas .vela h3 {
+    text-align: center; 
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.velas .vela img {
+    width: 390px;
+    border: 1px solid #00000000;
+    padding: 15px; /* Espacio entre la imagen y el borde */
+}
+
+.velas .vela{
+    margin: 100px; 
+}
+
+.difusores {
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: wrap;
+    padding-top: 110px;
+}
+
+.difusores .difusor h3 {
+    text-align: center; 
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.difusores .difusor img {
+    width: 390px;
+    border: 1px solid #00000000;
+    padding: 15px; /* Espacio entre la imagen y el borde */
+}
+
+.difusores .difusor{
+    margin: 100px; 
+}
+
+
+footer {
+    background-color: #c9b8a6;
+    height: 300px;
+}
+
+.redes {
+    list-style-type: none;
+
+}
+
+.redes li {
+    text-align: left;
+    text-align: right;
+    margin-right: 50px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.redes li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-hr {
+    width: 90%;
+    margin: 60px auto;
+    margin-top: -1px;
+}
+
+.copyright {
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
